@@ -4,7 +4,7 @@ $domain = $_SERVER['HTTP_HOST'];
 //Making the API call from client
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://localhost/themes-arcade-final/api/server/?domain=$domain",
+  CURLOPT_URL => "http://localhost/api/server/?domain=$domain",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -32,7 +32,7 @@ else
 {
 	if($response=="valid")
 	{
-  		header("location:https://digitalvault.in");
+  		header("location:https://google.com");
 	}
 	else
 	{
