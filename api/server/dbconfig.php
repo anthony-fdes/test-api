@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$username = "themesarcade";
-$password = "Arcade@123#@!";
+$username = "anthony";
+$password = "Test@123";
 $db_name = "domains_check_list";
 
 // Create connection to our database
